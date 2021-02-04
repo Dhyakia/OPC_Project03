@@ -23,11 +23,11 @@ package "Website Learn@home" {
         U --> C
     }
     rectangle "Gestionnaire de taches" {
-        (Gerer ses taches) as T
+        (Gerer les taches) as T
         U --> T
     }
     rectangle "Calendrier" {
-        (Gerer ses rendez-vous) as G
+        (Ajouter et visualiser \nles rendez-vous) as G
         U --> G
     }
 }
