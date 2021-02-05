@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+:Utilisateur: as User
+
+package "Page de chat" {
+    User --> (Communiquer \nde façon instantanée)
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+:Utilisateur: as User
+
+package "Gestionnaire de tâches" {
+    User --> (Gérer ses tâches)
+}
+@enduml
