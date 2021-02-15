@@ -1,0 +1,27 @@
+@startuml
+
+left to right direction
+:Utilisateur: as user
+:Mentor: as M
+:Élève: as E
+
+E --> user
+M --> user
+
+
+
+package "Learn@home" {
+    (S'identifier) as id
+    (Afficher un récapitulatif \n des differentes actions possibles) as bord
+    (Communiquer \nde facon instantanée) as com
+    (Gerer ses taches) as task
+    (Gerer ses rendez-vous) as meet
+}
+
+user --> id
+user --> bord
+user --> com
+user --> task
+user --> meet
+
+@enduml

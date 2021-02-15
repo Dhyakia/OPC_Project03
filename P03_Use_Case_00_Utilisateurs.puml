@@ -1,11 +1,11 @@
 @startuml
 
 left to right direction
-:Utilisateur: as user
+:Utilisateur: as User
 :Mentor: as M
 :Élève: as E
 
-E --> user
-M --> user
+E --> User
+M --> User
 
 @enduml
